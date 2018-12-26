@@ -1,0 +1,22 @@
+package Mabani;
+
+import java.util.Scanner;
+
+public class HOME {
+
+	public static void main(String[] args) {
+		int ans;
+		Scanner sc = new Scanner(System.in);
+		JSON j = new JSON(sc.nextLine());
+		ans=j.jodasazi(0) ;
+			System.out.println(ans);
+
+	}
+
+//	{   "a" : 123 ,      " a     " : 123 ,        " a"    : 123      }
+
+	
+
+	
+
+}
